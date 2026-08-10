@@ -1,8 +1,8 @@
 # Local Release Readiness Report
 
 **Repository**: cross-principal-agent-witness
-**Branch**: post-submission/reviewer-hardening
-**Commit**: 9088a8527fd4d85d0227e7455a607ca89a40a277
+**Branch**: main
+**Commit**: d2b8fe364f2bf4113e29fc6b97bff1a976438257
 **Dirty**: True
 **Python Version**: 3.13.14
 

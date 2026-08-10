@@ -2,7 +2,15 @@
 
 Which authorization and provenance evidence primitives materially improve execution attribution, authority attribution, failure diagnosis, and eventually the selectivity of intervention when agents act through cross-principal delegation chains?
 
-**Status**: `PIPELINE_VALIDATED` | `SCIENTIFIC_HYPOTHESIS_NOT_ESTABLISHED`
+**Scientific Status**: `PIPELINE_VALIDATED` | `SCIENTIFIC_HYPOTHESIS_NOT_ESTABLISHED`
+
+> [!WARNING]
+> **Current Limitation & R1 Evidence Scale:**
+> Current R1 demonstrates separable deterministic evaluator behavior for provenance-path reconstruction versus delegation-scope edge localization, not real-world safety effect. The results are purely synthetic.
+
+> [!NOTE]
+> **Proposed Higher-Fidelity Endpoint:**
+> If funded under the submitted proposal, this methodological pipeline will be applied to live cross-principal agent delegations interacting in containerized environments.
 
 ## Current Artifact
 - 5 deterministic R1 scenarios
