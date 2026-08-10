@@ -26,7 +26,7 @@ We do not claim that such evidence automatically improves safety. Instead, this 
 The primary falsifiable question is:
 **Which authorization and provenance evidence primitives materially improve execution attribution, authority attribution, failure diagnosis, and eventually the selectivity of intervention when agents act through cross-principal delegation chains?**
 
-The current R1 sub-question is whether a deterministic pipeline can successfully isolate and measure the contribution of these primitives. The funded higher-fidelity hypothesis asks whether these benefits hold in real LLM-driven environments with semantic ambiguity and partial observability.
+The current R1 sub-question is whether a deterministic pipeline can successfully isolate and measure the contribution of these primitives. The proposed higher-fidelity hypothesis asks whether these benefits hold in real LLM-driven environments with semantic ambiguity and partial observability.
 
 ## 3. Related Work
 
@@ -166,7 +166,7 @@ python -m pytest -q
 python scripts/verify_reproduction.py
 python scripts/run_all.py
 ```
-The deterministic pipeline yields 6 passing tests, with output hashes strictly enforced against `results/reproduction_manifest.json`.
+The deterministic pipeline yields 14 passing tests, with output hashes strictly enforced against `results/reproduction_manifest.json`.
 
 ## 13. Limitations
 
@@ -183,7 +183,7 @@ Reviewers must explicitly acknowledge the following bounds of the R1 instrument:
 
 ## 14. Higher-Fidelity Research Program
 
-The Schmidt Sciences 2026 grant enables a staged progression toward ecological fidelity:
+If funded under the Schmidt Sciences 2026 call, the proposed program would enable a staged progression toward ecological fidelity:
 - **Stage 2**: Scripted/tool-using agents.
 - **Stage 3**: At least two independently developed open-weight model families.
 - **Stage 4**: Heterogeneous frontier API populations from at least two independent providers.

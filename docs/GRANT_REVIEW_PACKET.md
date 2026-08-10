@@ -52,13 +52,13 @@ python scripts/run_all.py
 This produces machine-readable CSV and JSON metrics. A cryptographic SHA-256 digest of these canonical results is maintained in `results/reproduction_manifest.json`, ensuring that no unauthorized changes to the scientific evidence can slip past the verification gates.
 
 ## 5. Explicit Claim Boundary and Limitations
-We maintain strict scientific discipline regarding what CPAW currently proves. **The R1 codebase implements an evidence ladder, reproduces machine-readable results deterministically, measures diagnostic contributions, and detects failure localizations in synthetic scenarios.**
+We maintain strict scientific discipline regarding what the current R1 instrument demonstrates. **The R1 codebase implements an evidence ladder, reproduces machine-readable results deterministically, measures diagnostic contributions, and detects failure localizations in synthetic scenarios.**
 
 It does **not** prove the system safe, nor does it validate frontier-agent safety in production environments. 
-The current R1 instrument is limited to a deterministic evaluator using hand-crafted synthetic ground truths, simplified string-based scope matching, and boolean visibility toggles. It does not evaluate missing traces, semantic proxy laundering, or the unstructured ambiguity inherent in real-world LLM-driven environments.
+The current R1 instrument is limited to a deterministic evaluator using hand-crafted synthetic ground truths, simplified enumerated operation-set scope/commitment semantics, and boolean visibility toggles. It does not evaluate missing traces, semantic proxy laundering, or the unstructured ambiguity inherent in real-world LLM-driven environments.
 
-## 6. Funded Transition in Fidelity (The Roadmap)
-The Schmidt Sciences 2026 grant enables us to transition this validated measurement pipeline to progressively higher-fidelity ecosystems:
+## 6. Proposed Transition in Fidelity (The Roadmap)
+If funded under the Schmidt Sciences 2026 call, the proposed program would enable us to transition this validated measurement pipeline to progressively higher-fidelity ecosystems:
 1. **Stage 1 (Current R1)**: Deterministic evaluation of synthetic scenarios.
 2. **Stage 2**: Scripted, tool-using agents replacing synthetic incident generators.
 3. **Stage 3**: Introduction of at least two independently developed open-weight model families acting as delegates.

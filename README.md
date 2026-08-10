@@ -7,7 +7,7 @@ Which authorization and provenance evidence primitives materially improve execut
 ## Current Artifact
 - 5 deterministic R1 scenarios
 - 6 evidence profiles
-- 6 current tests
+- 14 current tests
 - canonical machine-readable results
 
 ## One-command Verification

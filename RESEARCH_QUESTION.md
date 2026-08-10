@@ -23,7 +23,7 @@ where:
 
 ## Evidence contribution
 
-For a safety metric `Q` and evidence primitive `e`, the funded research will estimate:
+For a safety metric `Q` and evidence primitive `e`, the proposed research will estimate:
 
 `V_e = Q(W) - Q(W \ e)`
 

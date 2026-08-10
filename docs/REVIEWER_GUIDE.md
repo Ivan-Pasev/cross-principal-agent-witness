@@ -32,12 +32,12 @@ The entire scientific claim boundary rests on these three files:
 2. **Can hidden evidence leak into weaker conditions?** The codebase relies on Python conditional logic. It is not formally verified against covert channels (`INV-CPAW-002`).
 3. **Is provenance actually distinct from permission scope?** Yes. In R1, `B2` yields 1.0 for path reconstruction but only 0.4 for edge localization, whereas `B3` improves edge localization to 0.8.
 4. **Is the composite score being used to inflate scientific claims?** No. It is strictly explicitly documented as a secondary instrumentation diagnostic, not a primary endpoint.
-5. **Does R1 justify any statement about frontier agents?** No. R1 tests deterministic scenarios. Frontier safety is a future funded hypothesis.
+5. **Does R1 justify any statement about frontier agents?** No. R1 tests deterministic scenarios. Frontier safety is a future proposed hypothesis.
 
 ## 6. Known weaknesses
 Please see [LIMITATIONS.md](LIMITATIONS.md) for a comprehensive list of known weaknesses and missing evidence.
 
-## 7. What the funded work would test next
+## 7. What the proposed work would test next
 The R1 baseline serves as the foundation for the upcoming grant milestones. Please see [GRANT_ALIGNMENT.md](GRANT_ALIGNMENT.md) and [ROADMAP.md](ROADMAP.md) for the progression to open-weight models, frontier APIs, and adversarial stress.
 
 ## 8. Whitepaper

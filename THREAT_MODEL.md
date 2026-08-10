@@ -1,6 +1,6 @@
 # Threat Model
 
-| Threat | v0.1 prototype | Proposed funded work |
+| Threat | v0.1 prototype | Proposed higher-fidelity program |
 |---|---:|---:|
 | Excess-scope action | Yes | Yes |
 | Scope-expanding delegation | Yes | Yes |

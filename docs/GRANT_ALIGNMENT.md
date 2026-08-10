@@ -17,11 +17,11 @@ This repository is a post-freeze technical companion implementing and documentin
 | 9. Authority-path reconstruction | `witness/delegation.py` | Metrics CSV | Fails on cycle/missing | Probabilistic path inference | IMPLEMENTED_R1 |
 | 10. Invalid-edge localization | `witness/evaluator.py` | Metrics CSV | Strict parent/child | Multi-parent delegation | IMPLEMENTED_R1 |
 | 11. Single-field ablation | `witness/metrics.py` | `delegation_escape_summary.json` | Only independent removal | Combinatorial ablation | IMPLEMENTED_R1 |
-| 12. Missing/partial traces | NONE | NONE | Not implemented | Adversarial omission | FUNDED_HYPOTHESIS |
-| 13. Cloning/forks | NONE | NONE | Not implemented | Multi-instance identity tracking | FUNDED_HYPOTHESIS |
-| 14. Delegation laundering | NONE | NONE | Not implemented | Semantic proxy detection | FUNDED_HYPOTHESIS |
-| 15. Heterogeneous model families | NONE | NONE | Uses deterministic evaluator | >=2 independent open-weight models | FUNDED_HYPOTHESIS |
-| 16. Frontier providers | NONE | NONE | None | Frontier APIs from >=2 providers | FUNDED_HYPOTHESIS |
+| 12. Missing/partial traces | NONE | NONE | Not implemented | Adversarial omission | PROPOSED_HIGHER_FIDELITY_PROGRAM |
+| 13. Cloning/forks | NONE | NONE | Not implemented | Multi-instance identity tracking | PROPOSED_HIGHER_FIDELITY_PROGRAM |
+| 14. Delegation laundering | NONE | NONE | Not implemented | Semantic proxy detection | PROPOSED_HIGHER_FIDELITY_PROGRAM |
+| 15. Heterogeneous model families | NONE | NONE | Uses deterministic evaluator | >=2 independent open-weight models | PROPOSED_HIGHER_FIDELITY_PROGRAM |
+| 16. Frontier providers | NONE | NONE | None | Frontier APIs from >=2 providers | PROPOSED_HIGHER_FIDELITY_PROGRAM |
 | 17. Scoped intervention | NONE | NONE | Not implemented | Targeted capability quarantine | PLANNED_HIGHER_FIDELITY |
 | 18. Coarse-shutdown comparison | NONE | NONE | Not implemented | Baseline vs Scoped metrics | PLANNED_HIGHER_FIDELITY |
 | 19. Reproducibility | `scripts/run_all.py` | `reproduction_manifest.json` | Local execution only | Public immutable ledger / container | IMPLEMENTED_R1 |
