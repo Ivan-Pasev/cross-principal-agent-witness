@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cross-Principal Agent Witness summary",
+  "type": "object",
+  "required": [
+    "prototype_status",
+    "scientific_hypothesis",
+    "scenario_count",
+    "profile_summary",
+    "ablation_summary"
+  ],
+  "properties": {
+    "prototype_status": {
+      "const": "PIPELINE_VALIDATED"
+    },
+    "scientific_hypothesis": {
+      "const": "NOT_ESTABLISHED"
+    },
+    "scenario_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "profile_summary": {
+      "type": "object",
+      "required": [
+        "B0",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "W"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "incident_accuracy",
+          "execution_attribution",
+          "authority_edge_localization",
+          "principal_chain_reconstruction",
+          "commitment_localization",
+          "revocation_localization",
+          "composite"
+        ]
+      }
+    },
+    "ablation_summary": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "file": "results/delegation_escape_metrics.csv",
+  "columns": [
+    "profile",
+    "scenario",
+    "incident_accuracy",
+    "execution_attribution",
+    "authority_edge_localization",
+    "principal_chain_reconstruction",
+    "commitment_localization",
+    "revocation_localization",
+    "composite"
+  ],
+  "row_semantics": "One row per evidence-profile \u00d7 deterministic scenario evaluation."
+}

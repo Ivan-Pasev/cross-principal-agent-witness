@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, cite the repository and associated proposal."
+title: "Cross-Principal Agent Witness"
+version: "0.3.0"
+type: software
+authors:
+  - family-names: Pasev
+    given-names: Ivan
+    orcid: "https://orcid.org/0009-0002-1902-9738"
+date-released: "2026-08-09"
+keywords:
+  - multi-agent safety
+  - delegation
+  - provenance
+  - authorization
+  - attribution

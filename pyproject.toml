@@ -1,0 +1,14 @@
+[project]
+name = "cross-principal-agent-witness"
+version = "0.3.0"
+description = "Research prototype for evidence ablation in cross-principal agent attribution"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Ivan Pasev"}]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
