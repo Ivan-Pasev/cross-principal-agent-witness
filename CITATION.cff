@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this research prototype, cite the repository and associated proposal."
 title: "Cross-Principal Agent Witness"
-version: "1.0.0-rc.1"
+version: "1.0.0"
 type: software
 authors:
   - family-names: Pasev

@@ -1,5 +1,42 @@
 # Changelog
 
+## v1.0.0 — 2026-08-10
+
+### Scientific results
+
+- No change to canonical R1 scientific result files.
+- No new scientific result is introduced by v1.0.0.
+- Scientific status remains:
+  PIPELINE_VALIDATED /
+  SCIENTIFIC_HYPOTHESIS_NOT_ESTABLISHED.
+
+### Release maturity
+
+v1.0.0 denotes:
+- public repository maturity;
+- reviewer-oriented documentation maturity;
+- reproducibility engineering maturity;
+- CI-backed artifact assurance;
+- release/governance maturity.
+
+It does NOT denote:
+- frontier-agent validation;
+- deployment validity;
+- scientific hypothesis confirmation;
+- completed funded research.
+
+### Post-submission status
+
+The grant application preceded this final repository release.
+v1.0.0 is a living post-submission technical companion.
+It does not retroactively alter the submitted application.
+
+### Additional engineering & CI state
+
+- 14-test regression suite verified;
+- deterministic R1 evidence preserved;
+- remote CI verified (Python 3.11, 3.12, 3.13 PASS).
+
 ## v1.0.0-rc.1 — 2026-08-10
 
 ### Scientific results

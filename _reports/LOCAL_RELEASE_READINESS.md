@@ -2,7 +2,7 @@
 
 **Repository**: cross-principal-agent-witness
 **Branch**: main
-**Commit**: d2b8fe364f2bf4113e29fc6b97bff1a976438257
+**Commit**: 0f3307014e88b47c81bd678e037c9f96c111a387
 **Dirty**: True
 **Python Version**: 3.13.14
 
